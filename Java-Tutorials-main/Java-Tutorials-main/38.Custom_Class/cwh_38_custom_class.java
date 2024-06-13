@@ -38,5 +38,6 @@ public class cwh_38_custom_class {
         // Getting and printing John's salary
         int salary = john.getSalary();
         System.out.println("John's salary is: " + salary);
+        System.out.println("Harry's salary is: " + harry.getSalary());
     }
 }
