@@ -1,4 +1,4 @@
-public class _02_sum_of_two_nums {
+public class L02_sum_of_two_nums {
     public static void main(String[] args) {
         int n1 = 33, n2 = 77;
         int sum = n1 + n2;

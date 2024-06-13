@@ -1,4 +1,7 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
-    "pdf-preview.default.sidebar": true
+    "pdf-preview.default.sidebar": true,
+    "cSpell.words": [
+        "linebreak"
+    ]
 }
