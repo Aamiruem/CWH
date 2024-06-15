@@ -10,8 +10,17 @@
 
 class cwh{
 
-    cwh(){
+    cwh(int i){
         System.out.println("This is a Default constructor of cwh class.");
+    }
+
+    public cwh(int i) {
+        //TODO Auto-generated constructor stub
+    }
+
+    public char[] getX() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getX'");
     }
 }
 public class DefaultConstructor {
