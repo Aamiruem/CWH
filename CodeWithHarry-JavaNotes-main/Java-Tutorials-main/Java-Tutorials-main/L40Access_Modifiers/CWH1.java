@@ -17,11 +17,11 @@ class Employee {
     }
 }
 
-public class CWH {
+public class CWH1 {
     public static void main(String[] args) {
         Employee emp1 = new Employee();
 
-        emp1.setName("Shubham");
+        emp1.setName("kamran");
         System.out.println(emp1.getName());
         emp1.setId(1);
         System.out.println(emp1.getId());
