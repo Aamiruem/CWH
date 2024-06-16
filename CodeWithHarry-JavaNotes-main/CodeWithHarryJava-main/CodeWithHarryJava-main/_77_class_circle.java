@@ -1,5 +1,8 @@
 class circle{
     int radius;
+    public circle(int r) {
+        //TODO Auto-generated constructor stub
+    }
     public void setRadius(int r){
         radius = r;
     }
