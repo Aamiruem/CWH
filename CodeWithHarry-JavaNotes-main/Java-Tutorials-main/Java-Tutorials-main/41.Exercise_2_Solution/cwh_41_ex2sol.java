@@ -1,5 +1,3 @@
-// package 41.Exercise_2_Solution
-
 import java.util.Random;
 import java.util.Scanner;
 

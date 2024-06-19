@@ -1,14 +1,13 @@
-class Employee {
+class Employee{
     int id;
     int salary;
     String name;
-
-    public void printDetails() {
+    public void printDetails(){
         System.out.println("My id is " + id);
-        System.out.println("and my name is " + name);
+        System.out.println("and my name is "+ name);
     }
 
-    public int getSalary() {
+    public int getSalary(){
         return salary;
     }
 }
@@ -16,10 +15,8 @@ class Employee {
 public class cwh_38_custom_class {
     public static void main(String[] args) {
         System.out.println("This is our custom class");
-
-        // Instantiating new Employee Objects
-        Employee harry = new Employee();
-        Employee john = new Employee();
+        Employee harry = new Employee(); // Instantiating a new Employee Object
+        Employee john = new Employee(); // Instantiating a new Employee Object
 
         // Setting Attributes for Harry
         harry.id = 12;
@@ -29,15 +26,14 @@ public class cwh_38_custom_class {
         // Setting Attributes for John
         john.id = 17;
         john.salary = 12;
-        john.name = "kamran Hussain";
+        john.name = "John Khandelwal";
 
         // Printing the Attributes
         harry.printDetails();
         john.printDetails();
-
-        // Getting and printing John's salary
         int salary = john.getSalary();
-        System.out.println("John's salary is: " + salary);
-        System.out.println("Harry's salary is: " + harry.getSalary());
+        System.out.println(salary);
+        // System.out.println(harry.id);
+        // System.out.println(harry.name);
     }
 }

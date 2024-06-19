@@ -1,4 +1,4 @@
-public class Trianglecwh_35_ps_pr_02 {
+public class cwh_35_ps_pr_02 {
     static void pattern(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i + 1; j++) {
@@ -8,6 +8,6 @@ public class Trianglecwh_35_ps_pr_02 {
         }
     }
     public static void main(String args[]) {
-        pattern(8);
+        pattern(4);
     }
 }
